@@ -1,0 +1,25 @@
+# Environment & Secret files
+.env
+.env.*
+client_secret.json
+*secret*.json
+token.json
+*.token
+apis
+apis/
+apis.*
+apis.txt
+credentials/
+tokens/
+
+
+# Python & Build Artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+.pytest_cache/
